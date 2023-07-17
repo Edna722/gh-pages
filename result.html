@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise Intensity Result</title>
+    <style>
+        body {
+            //background-image: url("../static/workout.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-color: grey;
+        }
+        h2 {
+            color: white;
+        }
+        p {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Predicted Exercise Intensity: {{ intensity }}</h2>
+    <p>{{ description }}</p>
+    <p>Maximum Heart Rate at that Intensity: {{ heart_rate }}</p>
+</body>
+</html>
